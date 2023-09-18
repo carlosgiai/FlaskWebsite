@@ -195,8 +195,8 @@ def delete_history():
 
 # Your Stripe secret key (you'll have this in your Stripe Dashboard)
 stripe_keys = {
-  'secret_key': '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',
-  'publishable_key': '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'
+  'secret_key': '',
+  'publishable_key': ''
 }
 
 stripe.api_key = stripe_keys['secret_key']
